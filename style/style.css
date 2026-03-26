@@ -31,8 +31,8 @@ main{
 
 h1{
     color: var(--cor-secundaria);
-    font-size: 30px;
-    font-family: 'Lucida Sans', sans-serif;
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
     text-align: center;
     margin-bottom: 10px;
 }
@@ -60,22 +60,48 @@ nav a:hover{
     padding: 0 20px;
 }
 
+.headerTexto{
+    font-family: var(--fonte-primaria);
+}
+
+.tituloDestaque{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+
+}
+
 .textoApresentacao{
-    color:#F6F6F6;
-    font-size: 10px;
-    font-family: 'Lucida Sans', sans-serif;
-    text-align: center;
+    color:var(--cor-secundaria);
+    font-size: 14px;
+    font-family: var(--fonte-secundaria);
+    text-align: left;
     margin-bottom: 10px;
 }
 
-.textoRedes{
-    color:#F6F6F6;
-    font-size: 10px;
-    font-family: "Krona One", sans-serif;
+.linkGithub{
+    padding: 10px;
+    margin-top: 10px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
+.linkLinkedin{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.linkTwitch{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nomeRede{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    text-align: left;
+    font-size: 14px;
+}
 
 footer{
     background-color: #22D4FD;
