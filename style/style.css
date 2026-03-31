@@ -30,6 +30,16 @@ body{
     display: flex;
 }
 
+header{
+    display: flex;
+    gap: 20px
+}
+
+section{
+    padding-top: 40px;
+    padding-left: 250px;
+}
+
 .cabecalho__menu__link{
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -47,9 +57,9 @@ body{
 h1{
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    padding-left: 300px;
+    padding-right: 300px;
     margin-top: 235px;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .apresentacaConteudo{
@@ -61,6 +71,14 @@ h1{
     color: var(--cor-terciaria);
     font-family: var(--fonte-primaria);
 
+}
+
+.fotoPerfil{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    height: 550px;
+    width: 488px;
 }
 
 .textoApresentacao{
@@ -77,15 +95,6 @@ h1{
     font-family: var(--fonte-secundaria);
     padding-left: 355px;
     padding-top: 30px;
-}
-
-.fotoPerfil{
-    display: flex;
-    padding: 50px;
-    margin: 50px;
-    height: 550px;
-    width: 488px;
-    float:  right
 }
 
 .linkGithub{
@@ -108,6 +117,7 @@ h1{
 
 footer{
     background-color: #22D4FD;
+    font-family: var(--fonte-secundaria);
     padding: 10px;
     text-align: center;
     margin-top: 10px;
