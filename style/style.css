@@ -26,25 +26,8 @@ main{
 
 body{
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
-    box-sizing: border-box;
     flex-direction: column;
     display: flex;
-}
-
-.cabecalho{
-    display: flex;
-    justify-self: center;
-    align-items: left;
-    height: 80px;
-}
-
-h1{
-    color: var(--cor-secundaria);
-    font-size: 25px;
-    font-family: var(--fonte-primaria);
-    text-align: center;
-    margin-bottom: 10px;
 }
 
 .cabecalho__menu__link{
@@ -54,18 +37,24 @@ h1{
     font-family: var(--fonte-secundaria);
 }
 
-.titulo__destaque{
-    color: var(--cor-terciaria);
-    font-family: var(--fonte-secundaria);
+.apresentacao{
+    display: flex;
+    justify-self: center;
+    align-items: left;
+    height: 80px;
 }
 
-.apresentaacao__conteudo__titulo{
+h1{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    padding-left: 300px;
+    margin-top: 235px;
+    font-size: 3rem;
+}
+
+.apresentacaConteudo{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-}
-
-.headerTexto{
-    font-family: var(--fonte-primaria);
 }
 
 .tituloDestaque{
@@ -75,11 +64,28 @@ h1{
 }
 
 .textoApresentacao{
-    color:var(--cor-secundaria);
-    font-size: 14px;
+    color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    text-align: left;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    padding-left: 300px;
+}
+
+.textoRedes{
+    color:var(--cor-secundaria);
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    padding-left: 355px;
+    padding-top: 30px;
+}
+
+.fotoPerfil{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    height: 550px;
+    width: 488px;
+    float:  right
 }
 
 .linkGithub{
@@ -98,13 +104,6 @@ h1{
     padding: 10px;
     margin-top: 10px;
     text-align: center;
-}
-
-.nomeRede{
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
-    text-align: left;
-    font-size: 14px;
 }
 
 footer{
