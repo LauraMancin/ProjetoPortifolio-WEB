@@ -27,8 +27,6 @@ main{
 
 body{
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
-    box-sizing: border-box;
     flex-direction: column;
     display: flex;
 }
@@ -128,5 +126,6 @@ footer{
     color: #000000;
     padding: 10px;
     text-align: center;
-    margin-top: 10px;
+    align-items: end;
+    margin: 50px;
 }
