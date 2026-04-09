@@ -53,6 +53,16 @@ nav a:hover{
     text-decoration: none;
 }
 
+.fotoPerfil{
+    display: flex;
+    padding: 50px;
+    margin: 200px;
+    margin-left: 300px;
+    height: 550px;
+    width: 488px;
+    float: right;
+}
+
 h1{
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
@@ -82,48 +92,8 @@ h1{
     padding-top: 30px;
 }
 
-.fotoPerfil{
-    display: flex;
-    padding: 50px;
-    margin: 50px;
-    height: 550px;
-    width: 488px;
-    float: right;
-}
-
-/*faz a borda do botão
-.borda{  
-    display: block;
-    border: 3px solid var(--cor-terciaria);
-    color: var(--cor-secundaria);
-    text-decoration: none;
-    padding: 15px;
-    margin-bottom: 10px;
-    text-align: left;
-    border-radius: 20px;
-}
-
-.borda:hover {
-    background: var(--cor-primaria);
-    color: var(--cor-secundaria);
-} */
 
 .linkRede{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    border: 2px solid var(--cor-terciaria);
-    width: 50%;
-    border-radius: 8px;
-    padding: 20px 0px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--cor-secundaria);
-    text-decoration: none;
-    font-family: var(--fonte-secundaria);
-}
-
-.nomeRede{
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -143,10 +113,29 @@ h1{
 }
 
 footer{
-    background-color: #22D4FD;
-    color: #000000;
-    padding: 10px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
     text-align: center;
-    align-items: end;
-    margin: 50px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px){ /*responsividade*/
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .menuLink{
+        justify-content: center;
+    }
+    .h1{
+        flex-direction: column-reverse;
+        padding: 10%;
+    }
+
+    .textoApresentacao{
+        width: auto;
+    }
 }
