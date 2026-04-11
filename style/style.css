@@ -32,6 +32,13 @@ body{
     display: flex;
 }
 
+.cabecalho{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+}
+
 nav a{
     color: var(--cor-terciaria);
     font: var(--fonte-secundaria);
@@ -55,7 +62,7 @@ nav a:hover{
 
 .fotoPerfil{
     display: flex;
-    padding: 50px;
+    padding: 20px;
     margin: 200px;
     margin-left: 300px;
     height: 550px;
