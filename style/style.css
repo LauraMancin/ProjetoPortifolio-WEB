@@ -84,28 +84,33 @@ h1{
     padding-left: 300px;
 }
 
+.redes{
+    flex-direction: column;
+    display: flex;
+    padding-left: 155px;
+    padding-top: 30px;
+    gap: 10px;
+    align-items: center;
+}
+
 .textoRedes{
     color:var(--cor-secundaria);
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-    padding-left: 355px;
-    padding-top: 30px;
 }
-
 
 .linkRede{
     display: flex;
     justify-content: center;
-    gap: 16px;
     border: 2px solid var(--cor-terciaria);
     width: 50%;
     border-radius: 8px;
-    padding: 20px 0px;
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
     font-family: var(--fonte-secundaria);
+    padding: 10px;
 }
 
 .nomeRede :hover{
