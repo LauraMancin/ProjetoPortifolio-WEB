@@ -120,7 +120,7 @@ h1{
     padding: 10px;
 }
 
-.nomeRede :hover{
+.linkRede:hover{
     background-color: var(--cor-hover);
 }
 
